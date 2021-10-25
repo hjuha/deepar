@@ -8,7 +8,7 @@ The file `deepar.cpp` contains our implementations of the rejection samplers. Co
 
 `TASSA`: Ensures that the matrix has total support if the parameter is 1.
 
-`DOUBLY_STOCHASTIC`: Makes the matrix nearly doubly stochastic if the parameter is 1.
+`DOUBLY_STOCHASTIC`: Makes the matrix nearly doubly stochastic and divide each row by its largest entry if the parameter is 1.
 
 The input format for getting an (epsilon, delta)-approximation of a n × n matrix A:
 
